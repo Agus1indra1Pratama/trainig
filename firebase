@@ -1,0 +1,7 @@
+from firebase import firebase
+
+url='https://tugas-sekolah-19082000.firebaseio.com/'
+result=firebase.FirebaseApplication(url)
+result = firebase.put("/Test Val","Value",200)
+print(result)
+
